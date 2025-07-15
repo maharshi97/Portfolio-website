@@ -1,0 +1,292 @@
+Maharshi Pathak 
+3.5+ Years of SRE & DevOps Experience | AWS Certified | Azure | Terraform | Kubernetes (EKS/AKS) | CI/CD | Jenkins | Python | Linux | GitHub Actions | Argo CD | AI
+
+Lakehead University
+Toronto, Ontario, Canada  Contact info
+GITHUB 
+500+ connections
+Open to
+
+Add profile section
+
+Enhance profile
+
+Resources
+Open to work
+Cloud Engineer, DevOps Engineer, Site Reliability Engineer, Platform Engineer and Cloud Support Engineer roles
+
+Show details
+
+Edit
+Share that you’re hiring and attract qualified candidates.
+
+Get started
+
+
+Showcase your services as a section on your profile so your business can be easily discovered.
+
+Get started
+
+
+
+AnalyticsAnalytics
+ Private to you Private to you
+
+84 profile views
+84 profile views
+Discover who's viewed your profile.Discover who's viewed your profile.
+125 post impressions
+125 post impressions
+Check out who's engaging with your posts.Check out who's engaging with your posts.
+Past 7 daysPast 7 days
+23 search appearances
+23 search appearances
+See how often you appear in search results.See how often you appear in search results.
+Show all analytics
+AboutAbout
+As a DevOps and Site Reliability Engineer with 3.5 years of hands-on experience at the Canada Revenue Agency, I specialize in building scalable, reliable, and automated infrastructure solutions on AWS and Azure. From deploying microservices on EKS and AKS to architecting CI/CD pipelines with Jenkins, Argo CD, and Azure DevOps, I help teams deliver faster, recover quicker, and scale smarter.
+
+🔧 My core strengths lie in:
+
+* Automating infrastructure using Terraform, Shell, and Python
+* Monitoring and observability with Prometheus, Grafana, CloudWatch, ELK
+* Building secure and repeatable GitOps pipelines with Docker, Helm, GitHub Actions
+* Troubleshooting live production issues (50+ incidents resolved with 95%+ SLA)
+
+🎯 Key achievements:
+
+* Improved infrastructure reliability to 99% uptime
+* Reduced incident resolution time by 25% through better observability
+* Saved 10+ hours weekly via scripting and automation
+* Delivered projects on both AWS EKS and Azure AKS, including multi-tier apps and GitOps pipelines
+
+I hold the AWS Solutions Architect – Associate certification and am passionate about optimizing performance, minimizing downtime, and enabling development velocity through infrastructure best practices.
+
+📍 Open to SRE, DevOps, or Cloud Engineer roles across Canada or remote positions in the U.S.
+
+Let’s connect if you're looking for someone who can bring calm to chaos, improve systems through automation, and proactively prevent incidents.As a DevOps and Site Reliability Engineer with 3.5 years of hands-on experience at the Canada Revenue Agency, I specialize in building scalable, reliable, and automated infrastructure solutions on AWS and Azure. From deploying microservices on EKS and AKS to architecting CI/CD pipelines with Jenkins, Argo CD, and Azure DevOps, I help teams deliver faster, recover quicker, and scale smarter. 🔧 My core strengths lie in: * Automating infrastructure using Terraform, Shell, and Python * Monitoring and observability with Prometheus, Grafana, CloudWatch, ELK * Building secure and repeatable GitOps pipelines with Docker, Helm, GitHub Actions * Troubleshooting live production issues (50+ incidents resolved with 95%+ SLA) 🎯 Key achievements: * Improved infrastructure reliability to 99% uptime * Reduced incident resolution time by 25% through better observability * Saved 10+ hours weekly via scripting and automation * Delivered projects on both AWS EKS and Azure AKS, including multi-tier apps and GitOps pipelines I hold the AWS Solutions Architect – Associate certification and am passionate about optimizing performance, minimizing downtime, and enabling development velocity through infrastructure best practices. 📍 Open to SRE, DevOps, or Cloud Engineer roles across Canada or remote positions in the U.S. Let’s connect if you're looking for someone who can bring calm to chaos, improve systems through automation, and proactively prevent incidents.
+Top skills
+Top skills
+Kubernetes • Terraform • Continuous Integration and Continuous Delivery (CI/CD) • Shell Scripting • DevOps
+Kubernetes • Terraform • Continuous Integration and Continuous Delivery (CI/CD) • Shell Scripting • DevOps
+ActivityActivity
+868 followers868 followers
+
+Create a post
+
+Posts
+
+Comments
+Loaded 2 Posts posts
+View Maharshi Pathak’s open to work graphic link
+Maharshi PathakMaharshi Pathak
+ • YouYou
+3.5+ Years of SRE & DevOps Experience | AWS Certified | Azure | Terraform | Kubernetes (EKS/AKS) | CI/CD | Jenkins | Python | Linux | GitHub Actions | Argo CD | AI3.5+ Years of SRE & DevOps Experience | AWS Certified | Azure | Terraform | Kubernetes (EKS/AKS) | CI/CD | Jenkins | Python | Linux | GitHub Actions | Argo CD | AI
+3w •  3 weeks ago • Visible to anyone on or off LinkedIn
+
+Thrilled to Announce: I'm Now an AWS Certified Solutions Architect - Associate!
+
+I am excited to share that I have successfully passed the AWS Certified Solutions Architect—Associate exam! This journey has been challenging yet incredibly rewarding, deepening my understanding of architecting and deploying robust, scalable, and cost-effective solutions on the world's leading cloud platform.
+
+This certification validates my proficiency in key areas, including:
+Designing resilient and high-performing architectures using core AWS services like EC2, S3, VPC, RDS, CloudWatch, and EKS.
+
+Implementing secure and compliant applications by leveraging AWS security best practices.
+
+Building cost-optimized infrastructures that align with business objectives.
+
+I'm excited to apply my knowledge to a Cloud Engineering role. I am particularly interested in the intersection of cloud infrastructure with DevOps and SRE principles to enhance automation and system reliability
+
+I look forward to connecting with fellow cloud professionals and exploring new opportunities in this ever-evolving space. 
+
+Please feel free to reach out if you'd like to discuss cloud strategies or just connect!
+
+hashtag#AWS hashtag#AWSCertified hashtag#SolutionsArchitect hashtag#CloudComputing hashtag#CloudEngineer hashtag#DevOps hashtag#SRE hashtag#Cloud hashtag#TechCareer hashtag#Certification
+…more
+
+
+Celebrating a New Certification
+likecelebratelove
+53
+18 comments
+1 repost
+
+
+
+
+View Maharshi Pathak’s open to work graphic link
+Maharshi PathakMaharshi Pathak
+ • YouYou
+3.5+ Years of SRE & DevOps Experience | AWS Certified | Azure | Terraform | Kubernetes (EKS/AKS) | CI/CD | Jenkins | Python | Linux | GitHub Actions | Argo CD | AI3.5+ Years of SRE & DevOps Experience | AWS Certified | Azure | Terraform | Kubernetes (EKS/AKS) | CI/CD | Jenkins | Python | Linux | GitHub Actions | Argo CD | AI
+5yr •  5 years ago • Visible to anyone on or off LinkedIn
+
+View my verified achievement from IBM.
+
+Big Data Foundations - Level 1 was issued by IBM to Maharshi Pathak.
+youracclaim.com
+like
+16
+3 comments
+
+
+
+
+
+Show all posts
+ExperienceExperience
+
+Canada Revenue Agency - Agence du revenu du Canada logo
+IT infrastructure analyst 
+IT infrastructure analyst 
+Canada Revenue Agency - Agence du revenu du CanadaCanada Revenue Agency - Agence du revenu du Canada
+Aug 2021 - Present · 4 yrsAug 2021 to Present · 4 yrs
+Mississauga, Ontario, CanadaMississauga, Ontario, Canada
+As an IT Infrastructure Support Analyst at CRA, I ensured the reliability and scalability of critical government systems through automation, troubleshooting, observability, and infrastructure optimization. My work laid a strong foundation for adopting DevOps and Cloud practices within enterprise environments
+
+Deployed microservices on AWS & AZURE EKS/AKS, provisioning EC2 instances and Kubernetes clusters, improving scalability and performance for internal tools used by over 1,000 users.
+
+Automated routine operations using Python and Shell scripts, reducing ticket resolution time by 20% and saving 10+ hours weekly across the infrastructure support team.
+
+Led monitoring and observability efforts using CloudWatch, Prometheus, and Grafana, proactively identifying and resolving system bottlenecks, achieving 99% uptime for critical government systems.
+
+Implemented Infrastructure as Code using Terraform to manage Kubernetes and AWS resources, with remote state stored securely in S3/DynamoDB, enabling consistent, version-controlled deployments.
+
+Built and managed CI/CD pipelines with Jenkins, GitHub Actions, and Argo CD, accelerating release cycles and reducing manual deployment effort by 60%.
+
+Resolved over 50+ production incidents, including AWS VPC, DNS, and peering issues, maintaining 95%+ SLA compliance and minimizing unplanned downtime.
+
+Improved application-level observability on Amazon EKS by implementing metrics, logs, and tracing, reducing incident resolution time by 25%.
+
+Collaborated cross-functionally with DevOps, network, and security teams to optimize system performance, enforce compliance, and support seamless application delivery. 
+
+✅ Skills:
+Terraform • Python • Shell Scripting • Kubernetes (EKS/AKS) • GitOps • CI/CD • Jenkins • Argo CD • Docker • GitHub Actions • Prometheus • Grafana • AWS (EC2, VPC, IAM, Route53, CloudWatch) • Azure AKS • System Monitoring • Incident Management • Automation • Infrastructure Support • Technical Documentation • ScriptingAs an IT Infrastructure Support Analyst at CRA, I ensured the reliability and scalability of critical government systems through automation, troubleshooting, observability, and infrastructure optimization. My work laid a strong foundation for adopting DevOps and Cloud practices within enterprise environments Deployed microservices on AWS & AZURE EKS/AKS, provisioning EC2 instances and Kubernetes clusters, improving scalability and performance for internal tools used by over 1,000 users. Automated routine operations using Python and Shell scripts, reducing ticket resolution time by 20% and saving 10+ hours weekly across the infrastructure support team. Led monitoring and observability efforts using CloudWatch, Prometheus, and Grafana, proactively identifying and resolving system bottlenecks, achieving 99% uptime for critical government systems. Implemented Infrastructure as Code using Terraform to manage Kubernetes and AWS resources, with remote state stored securely in S3/DynamoDB, enabling consistent, version-controlled deployments. Built and managed CI/CD pipelines with Jenkins, GitHub Actions, and Argo CD, accelerating release cycles and reducing manual deployment effort by 60%. Resolved over 50+ production incidents, including AWS VPC, DNS, and peering issues, maintaining 95%+ SLA compliance and minimizing unplanned downtime. Improved application-level observability on Amazon EKS by implementing metrics, logs, and tracing, reducing incident resolution time by 25%. Collaborated cross-functionally with DevOps, network, and security teams to optimize system performance, enforce compliance, and support seamless application delivery. ✅ Skills: Terraform • Python • Shell Scripting • Kubernetes (EKS/AKS) • GitOps • CI/CD • Jenkins • Argo CD • Docker • GitHub Actions • Prometheus • Grafana • AWS (EC2, VPC, IAM, Route53, CloudWatch) • Azure AKS • System Monitoring • Incident Management • Automation • Infrastructure Support • Technical Documentation • Scripting
+Problem Solving, Communication and +31 skills
+AppexWeb logo
+Software Developer
+Software Developer
+S.N. ENTERPRISE · Permanent Part-timeS.N. ENTERPRISE · Permanent Part-time
+Jul 2018 - Jul 2019 · 1 yr 1 moJul 2018 to Jul 2019 · 1 yr 1 mo
+Ahmedabad, Gujarat, IndiaAhmedabad, Gujarat, India
+Problem Solving
+Software Developer
+Software Developer
+Software Developer
+KalsInfo Tech. · InternshipKalsInfo Tech. · Internship
+Dec 2017 - May 2018 · 6 mosDec 2017 to May 2018 · 6 mos
+Anand, Gujarat, IndiaAnand, Gujarat, India
+EducationEducation
+Lakehead University logo
+Lakehead University
+Lakehead University
+Master's degree, Computer ScienceMaster's degree, Computer Science
+2019 - 20212019 - 2021
+Easily Adaptable
+CHARUSAT logo
+CHARUSAT
+CHARUSAT
+Bachelor of Engineering - BE, Information TechnologyBachelor of Engineering - BE, Information Technology
+2015 - 20192015 - 2019
+Licenses & certificationsLicenses & certifications
+Amazon Web Services (AWS) logo
+AWS Certified Solutions Architect – Associate
+AWS Certified Solutions Architect – Associate
+Amazon Web Services (AWS)Amazon Web Services (AWS)
+Issued Mar 2025 · Expires Mar 2028Issued Mar 2025 · Expires Mar 2028
+Show credential
+Amazon Web Services (AWS), Cloud Computing and +1 skill
+LinkedIn logo
+Learning NoSQL Databases
+Learning NoSQL Databases
+LinkedInLinkedIn
+Issued Jun 2020Issued Jun 2020
+Show credential
+Show all 3 licenses & certifications
+ProjectsProjects
+Remote Job Checker Agent (AI + Playwright + AWS Automation)
+Remote Job Checker Agent (AI + Playwright + AWS Automation)
+Jul 2025 - PresentJul 2025 - Present
+📄 Description:
+
+Designed and deployed an intelligent agent that automates remote job search by scanning job boards, extracting relevant roles using Open AI GPT-4, and emailing daily updates.
+
+🚀 Key Features:
+
+* 🌐 Uses Playwright to browse and extract job board HTML programmatically
+* 🧠 Leverages OpenAI GPT-4o to intelligently parse unstructured job listings
+* 🔍 Filters jobs by keywords like DevOps, SRE, Cloud Engineer, etc.
+* 📬 Sends job alerts via Gmail SMTP using App Passwords
+* ⚙️ Config-driven and modular Python architecture for flexibility
+
+☁️ AWS Deployment & Automation:
+
+🟢 AWS Lambda:
+ Packaged the script as a Python Lambda function to run serverlessly.
+
+🕒 CloudWatch Events:
+ Scheduled the Lambda to run daily and check all job boards.
+
+🧾 AWS Secrets Manager:
+ Stored OpenAI API key, Gmail credentials, and job filter settings securely.
+
+📦 S3 Bucket:
+ Used to store zipped deployment package and logs.
+
+🔁CI/CD with GitHub Actions:
+
+ On push to `main`, GitHub Actions:
+
+ * Runs lint/test on code
+ * Packages script and dependencies into a `.zip`
+ * Deploys automatically to S3 + triggers Lambda update via AWS CLI
+
+
+🛠️ Tech Stack:
+
+Python, Playwright, OpenAI API, AWS Lambda, CloudWatch, S3, Secrets Manager, GitHub Actions**
+
+📅 Time Period:
+
+July 2025 – Present**
+
+🔗 Project URL: https://github.com/maharshi97/AI-Job-checker-/blob/master/README.md
+
+📌 Outcome:
+
+Saved hours of daily job search time with automated role detection. Built with extensibility in mind, it can be integrated with Slack, Telegram, or Google Sheets.📄 Description: Designed and deployed an intelligent agent that automates remote job search by scanning job boards, extracting relevant roles using Open AI GPT-4, and emailing daily updates. 🚀 Key Features: * 🌐 Uses Playwright to browse and extract job board HTML programmatically * 🧠 Leverages OpenAI GPT-4o to intelligently parse unstructured job listings * 🔍 Filters jobs by keywords like DevOps, SRE, Cloud Engineer, etc. * 📬 Sends job alerts via Gmail SMTP using App Passwords * ⚙️ Config-driven and modular Python architecture for flexibility ☁️ AWS Deployment & Automation: 🟢 AWS Lambda: Packaged the script as a Python Lambda function to run serverlessly. 🕒 CloudWatch Events: Scheduled the Lambda to run daily and check all job boards. 🧾 AWS Secrets Manager: Stored OpenAI API key, Gmail credentials, and job filter settings securely. 📦 S3 Bucket: Used to store zipped deployment package and logs. 🔁CI/CD with GitHub Actions: On push to `main`, GitHub Actions: * Runs lint/test on code * Packages script and dependencies into a `.zip` * Deploys automatically to S3 + triggers Lambda update via AWS CLI 🛠️ Tech Stack: Python, Playwright, OpenAI API, AWS Lambda, CloudWatch, S3, Secrets Manager, GitHub Actions** 📅 Time Period: July 2025 – Present** 🔗 Project URL: https://github.com/maharshi97/AI-Job-checker-/blob/master/README.md 📌 Outcome: Saved hours of daily job search time with automated role detection. Built with extensibility in mind, it can be integrated with Slack, Telegram, or Google Sheets.…see more
+Artificial Intelligence (AI), Amazon Web Services (AWS) and +9 skills
+Deploy a three-tier application on Azure AKS
+Deploy a three-tier application on Azure AKS
+May 2025 - Jun 2025May 2025 - Jun 2025
+Orchestrated the end-to-end deployment of a 3-tier e-commerce application on Azure Kubernetes Service (AKS), managing 10+ polyglot microservices (Node.js, Python, Java) and databases (MySQL, MongoDB).
+
+Engineered and deployed a comprehensive Helm chart to automate the installation of 24+ Kubernetes manifests, which streamlined the entire application setup and enabled version-controlled, repeatable deployments.
+
+Managed stateful workloads by configuring StatefulSets with Persistent Volumes (PV) on Azure Disk for Redis and databases, ensuring data persistence and high availability for critical components like user data and caching.
+
+Implemented and configured an Azure Application Gateway Ingress Controller, creating Ingress rules to securely expose the application to the internet and manage traffic routing to the front-end web service.Orchestrated the end-to-end deployment of a 3-tier e-commerce application on Azure Kubernetes Service (AKS), managing 10+ polyglot microservices (Node.js, Python, Java) and databases (MySQL, MongoDB). Engineered and deployed a comprehensive Helm chart to automate the installation of 24+ Kubernetes manifests, which streamlined the entire application setup and enabled version-controlled, repeatable deployments. Managed stateful workloads by configuring StatefulSets with Persistent Volumes (PV) on Azure Disk for Redis and databases, ensuring data persistence and high availability for critical components like user data and caching. Implemented and configured an Azure Application Gateway Ingress Controller, creating Ingress rules to securely expose the application to the internet and manage traffic routing to the front-end web service.…see more
+Microsoft Azure, Azure Kubernetes Service (AKS) and +5 skills
+Show all 17 projects
+VolunteeringVolunteering
+CHARUSAT logo
+Crew Member
+Crew Member
+CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGYCHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY
+Sep 2018 · 1 moSep 2018 · 1 mo
+Science and TechnologyScience and Technology
+I have volunteered in Cognizance a technical event in my university. I helped to organize a technical workshop. I have volunteered in Cognizance a technical event in my university. I helped to organize a technical workshop. 
+SkillsSkills
+Artificial Intelligence (AI)
+Artificial Intelligence (AI)
+Remote Job Checker Agent (AI + Playwright + AWS Automation)Remote Job Checker Agent (AI + Playwright + AWS Automation)
+OpenAI API
+OpenAI API
+Remote Job Checker Agent (AI + Playwright + AWS Automation)Remote Job Checker Agent (AI + Playwright + AWS Automation)
+Show all 90 skills
+PublicationsPublications
+Survey on Network Simulators
+Survey on Network Simulators
+publication descriptionInternational Journal of Computer Application · Oct 17, 2018publication descriptionInternational Journal of Computer Application · Oct 17, 2018
+Comparative Analysis of Search Algorithms (Artificial Intelligence)
+Comparative Analysis of Search Algorithms (Artificial Intelligence)
+publication descriptionInternational Journal of Computer Application · Jun 15, 2018

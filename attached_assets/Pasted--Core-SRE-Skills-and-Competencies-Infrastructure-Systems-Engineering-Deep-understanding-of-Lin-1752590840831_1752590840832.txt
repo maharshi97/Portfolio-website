@@ -1,0 +1,69 @@
+✅ Core SRE Skills and Competencies
+🔧 Infrastructure & Systems Engineering
+Deep understanding of Linux system administration (processes, networking, storage, logs).
+
+Experience managing cloud infrastructure (AWS, Azure, GCP) using IaC tools like Terraform.
+
+Managing and optimizing Kubernetes clusters and containerized applications (Docker).
+
+Proficient in setting up and tuning load balancers, DNS, and reverse proxies (e.g., NGINX, HAProxy).
+
+Experience with storage solutions (e.g., EBS, Azure Disks, NFS, CSI volumes).
+
+⚙️ Monitoring, Observability & Incident Management
+Experience with observability stacks: Prometheus, Grafana, CloudWatch, Datadog, New Relic, ELK.
+
+Set up and maintained alerting rules, SLOs/SLIs, and on-call dashboards.
+
+Strong background in incident response, postmortems, and root cause analysis (RCA).
+
+Knowledge of chaos engineering and system failure simulations.
+
+🚀 DevOps & Automation
+Designed and maintained CI/CD pipelines using tools like Jenkins, GitHub Actions, Azure DevOps, Argo CD, etc.
+
+Implemented GitOps workflows for secure, repeatable deployments.
+
+Automated infrastructure and operational tasks using Shell scripting, Python, or Go.
+
+Created self-healing mechanisms using Kubernetes probes, auto-restarts, and rollout strategies.
+
+🔐 Security & Compliance
+Managed IAM policies, role-based access controls (RBAC) for Kubernetes and cloud platforms.
+
+Familiarity with TLS/SSL, secrets management, and vulnerability scanning (e.g., SonarQube, Trivy).
+
+Experience ensuring auditability and compliance (e.g., tagging, logging, patching policies).
+
+📊 Reliability & Performance Engineering
+Defined and enforced SLOs/SLIs to ensure system reliability targets.
+
+Conducted load testing, latency tracking, and performance tuning across services.
+
+Worked on horizontal and vertical autoscaling (e.g., HPA, Cluster Autoscaler).
+
+👥 Collaboration & Communication
+Worked cross-functionally with developers, QA, and product teams to implement best practices.
+
+Wrote detailed runbooks, SOPs, and knowledge base articles for L1/L2 handover.
+
+Conducted blameless postmortems and helped establish incident response playbooks.
+
+🛠️ Tools & Technologies Commonly Used by SREs
+Cloud Platforms: AWS, Azure, GCP
+
+Containers & Orchestration: Docker, Kubernetes, Helm
+
+CI/CD Tools: Jenkins, GitHub Actions, Azure Pipelines, Argo CD
+
+Monitoring: Prometheus, Grafana, CloudWatch, ELK
+
+IaC: Terraform, Ansible
+
+Scripting: Bash, Python
+
+Source Control: Git, GitHub, GitLab
+
+Alerting & Incident Tools: PagerDuty, Opsgenie, Slack, VictorOps
+
+Databases: MySQL, PostgreSQL, Redis

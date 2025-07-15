@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maharshi Pathak - DevOps/SRE Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #232F3E;
+            background-color: #FFFFFF;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #232F3E 0%, #2B3B4D 100%);
+            color: white;
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,153,0,0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.3; }
+            50% { transform: scale(1.1); opacity: 0.1; }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(45deg, #FFFFFF, #FF9900);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-content .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 24px;
+            color: #E0E0E0;
+            font-weight: 500;
+        }
+
+        .hero-content .description {
+            font-size: 1.1rem;
+            margin-bottom: 32px;
+            color: #B0B0B0;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+            margin-top: 24px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #E0E0E0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item:hover {
+            color: #FF9900;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 48px;
+            color: #232F3E;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, #FF9900, #0078D4);
+            border-radius: 2px;
+        }
+
+        /* Skills Section */
+        .skills-section {
+            background: #F8F9FA;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(35, 47, 62, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill-category:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 48px rgba(35, 47, 62, 0.15);
+        }
+
+        .skill-category h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #232F3E;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill-tag {
+            background: linear-gradient(135deg, #0078D4, #005A9F);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: transform 0.2s ease;
+        }
+
+        .skill-tag:hover {
+            transform: scale(1.05);
+        }
+
+        .skill-tag.aws {
+            background: linear-gradient(135deg, #FF9900, #E68900);
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(35, 47, 62, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 48px rgba(35, 47, 62, 0.15);
+        }
+
+        .project-header {
+            padding: 32px;
+            background: linear-gradient(135deg, #232F3E, #2B3B4D);
+            color: white;
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .project-content {
+            padding: 32px;
+        }
+
+        .project-description {
+            margin-bottom: 24px;
+            line-height: 1.7;
+            color: #4A4A4A;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tech-tag {
+            background: #F8F9FA;
+            color: #232F3E;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border: 1px solid #E0E0E0;
+        }
+
+        /* Experience Section */
+        .experience-section {
+            background: #F8F9FA;
+        }
+
+        .experience-card {
+            background: white;
+            padding: 48px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(35, 47, 62, 0.1);
+            margin-top: 48px;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .experience-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #232F3E;
+        }
+
+        .experience-company {
+            font-size: 1.2rem;
+            color: #0078D4;
+            font-weight: 500;
+        }
+
+        .experience-date {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .experience-achievements {
+            list-style: none;
+            margin-top: 24px;
+        }
+
+        .experience-achievements li {
+            margin-bottom: 16px;
+            padding-left: 24px;
+            position: relative;
+            line-height: 1.7;
+        }
+
+        .experience-achievements li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #FF9900;
+            font-weight: bold;
+        }
+
+        /* Education Section */
+        .education-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .education-card {
+            background: white;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(35, 47, 62, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .education-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .education-degree {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #232F3E;
+            margin-bottom: 8px;
+        }
+
+        .education-school {
+            font-size: 1.1rem;
+            color: #0078D4;
+            margin-bottom: 8px;
+        }
+
+        .education-date {
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        .education-gpa {
+            background: #F8F9FA;
+            padding: 8px 16px;
+            border-radius: 8px;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-content .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .education-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .experience-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Certification Badge */
+        .certification-badge {
+            background: linear-gradient(135deg, #FF9900, #E68900);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 24px;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 24px;
+            box-shadow: 0 4px 16px rgba(255, 153, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Maharshi Pathak</h1>
+                <p class="subtitle">DevOps Engineer | SRE | Cloud Infrastructure Specialist</p>
+                <p class="description">
+                    Experienced IT Infrastructure Analyst with expertise in AWS, Azure, Kubernetes, and CI/CD automation. 
+                    Proven track record of deploying scalable microservices and maintaining 99% uptime for critical systems.
+                </p>
+                <div class="contact-info">
+                    <a href="mailto:mahareshipathakk@gmail.com" class="contact-item">
+                        <span>📧</span>
+                        <span>mahareshipathakk@gmail.com</span>
+                    </a>
+                    <a href="tel:+16476171256" class="contact-item">
+                        <span>📱</span>
+                        <span>+1 647-617-1256</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mpathak7/" class="contact-item" target="_blank">
+                        <span>💼</span>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                    <span class="contact-item">
+                        <span>📍</span>
+                        <span>Mississauga, Canada</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Cloud Platforms & Multi-Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag aws">AWS EC2</span>
+                        <span class="skill-tag aws">AWS EKS</span>
+                        <span class="skill-tag aws">AWS VPC</span>
+                        <span class="skill-tag aws">AWS CloudWatch</span>
+                        <span class="skill-tag">Azure AKS</span>
+                        <span class="skill-tag">Azure DevOps</span>
+                        <span class="skill-tag">Azure Container Registry</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #4ECDC4, #45B7B8);">Multi-Cloud Strategy</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #4ECDC4, #45B7B8);">Edge Computing</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Containerization & Service Mesh</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Helm Charts</span>
+                        <span class="skill-tag">StatefulSets</span>
+                        <span class="skill-tag">Microservices</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #4ECDC4, #45B7B8);">Service Mesh (Istio)</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FF6B6B, #E55A5A);">Platform Engineering</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>CI/CD & DevSecOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Argo CD</span>
+                        <span class="skill-tag">Azure Pipelines</span>
+                        <span class="skill-tag">GitOps</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FF6B6B, #E55A5A);">DevSecOps</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #4ECDC4, #45B7B8);">Policy as Code (OPA)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Infrastructure & Observability</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">Grafana</span>
+                        <span class="skill-tag">SonarQube</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Shell Scripting</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #4ECDC4, #45B7B8);">Observability (OpenTelemetry)</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #4ECDC4, #45B7B8);">Chaos Engineering</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/ML Ops & Cost Optimization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FF6B6B, #E55A5A);">AI/ML Ops</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FF6B6B, #E55A5A);">FinOps</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #A8E6CF, #7BDCB5);">ML Model Deployment</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #A8E6CF, #7BDCB5);">Predictive Analytics</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #A8E6CF, #7BDCB5);">Automated Incident Response</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FFD93D, #F0C419);">Cost Optimization</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Leadership & Collaboration</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FFD93D, #F0C419);">Cross-Functional Collaboration</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FFD93D, #F0C419);">Incident Management</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FFD93D, #F0C419);">Risk Assessment</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FFD93D, #F0C419);">Business Alignment</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FFD93D, #F0C419);">Team Leadership</span>
+                        <span class="skill-tag" style="background: linear-gradient(135deg, #FFD93D, #F0C419);">Stakeholder Communication</span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <span class="certification-badge">🏆 AWS Certified Solutions Architect – Associate</span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Three-Tier Application on AWS EKS</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Deployed a comprehensive 3-tier e-commerce application on AWS EKS by containerizing 8+ microservices across multiple programming languages. Automated setup of 15+ Kubernetes resources using custom Helm charts, reducing manual provisioning efforts by 75% across environments.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS EKS</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">Helm</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Go</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">End-to-End GitOps Pipeline</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Engineered a 6-stage CI/CD pipeline with Jenkins, Docker, and Argo CD for Spring Boot applications. Integrated SonarQube static analysis with security gates for 5+ vulnerability types, reducing release cycle time by 40% while improving code quality assurance.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Jenkins</span>
+                            <span class="tech-tag">Argo CD</span>
+                            <span class="tech-tag">SonarQube</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Maven</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Azure AKS Multi-Tier Deployment</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Deployed a 3-tier application on Azure AKS using Helm to manage 10+ microservices and databases. Configured StatefulSets with Azure Disks for Redis and critical databases, ensuring persistent data storage and high availability across multiple Azure zones.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Azure AKS</span>
+                            <span class="tech-tag">Helm</span>
+                            <span class="tech-tag">StatefulSets</span>
+                            <span class="tech-tag">Azure Disks</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Azure DevOps Automation Pipeline</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Built an automated Azure DevOps pipeline for 3+ microservices, integrating Docker and Argo CD to achieve 100% reduction in manual deployments. Managed deployment lifecycle with Azure Container Registry integration, increasing deployment consistency by 60%.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Azure DevOps</span>
+                            <span class="tech-tag">Argo CD</span>
+                            <span class="tech-tag">Azure Container Registry</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">GitOps</span>
+                            <span class="tech-tag">AKS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">IT Infrastructure Analyst</h3>
+                        <p class="experience-company">Canada Revenue Agency</p>
+                    </div>
+                    <div class="experience-date">Aug 2021 - Mar 2025</div>
+                </div>
+                <ul class="experience-achievements">
+                    <li>Deployed microservices on AWS EKS by configuring EC2 instances and Kubernetes clusters, improving scalability and performance for over 1,000 users</li>
+                    <li>Automated operational workflows using Python scripts and custom tools, reducing ticket resolution time by 20% and saving 10+ hours weekly</li>
+                    <li>Monitored system reliability through AWS CloudWatch, Prometheus, and Grafana, achieving 99% uptime for critical CRA systems</li>
+                    <li>Implemented Infrastructure as Code using Terraform for Kubernetes and AWS resources, managing remote state securely via S3 and DynamoDB</li>
+                    <li>Resolved 150+ production incidents including AWS VPC and peering issues, achieving 95% SLA compliance and earning commendation for minimizing downtime</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3 class="education-degree">Master of Science in Computer Science</h3>
+                    <p class="education-school">Lakehead University</p>
+                    <p class="education-date">September 2019 - May 2021 | Thunder Bay, Canada</p>
+                    <span class="education-gpa">GPA: 3.7/4.0</span>
+                    <p style="margin-top: 16px; color: #666;">
+                        <strong>Relevant Coursework:</strong> Cloud Computing, Deep Learning, Software Engineering Principles, Security
+                    </p>
+                </div>
+                <div class="education-card">
+                    <h3 class="education-degree">Bachelor of Science in Information Technology</h3>
+                    <p class="education-school">Charotar University of Science & Technology</p>
+                    <p class="education-date">July 2015 - April 2019 | Gujarat, India</p>
+                    <span class="education-gpa">GPA: 8.62/10</span>
+                    <p style="margin-top: 16px; color: #666;">
+                        <strong>Relevant Coursework:</strong> Data Structures, Operating Systems, Web Technologies
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections
+        document.querySelectorAll('.skill-category, .project-card, .experience-card, .education-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
